@@ -1,0 +1,78 @@
+// DM Environment file for SS13A.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+/*
+FILE: gibbed.dmp
+DIR: code code\item code\item\weapon icons interface Lib
+UPDATE_OBJ_TREE: ON
+MAP_ICON_TYPE: 0
+AUTO_FILE_DIR: ON
+*/
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "code"
+#define FILE_DIR "code/item"
+#define FILE_DIR "code/item/weapon"
+#define FILE_DIR "code/machinery"
+#define FILE_DIR "icons"
+#define FILE_DIR "interface"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "gibbed.dmp"
+#include "code\!atoms.dm"
+#include "code\aaaDefines.dm"
+#include "code\airtunnel.dm"
+#include "code\areas.dm"
+#include "code\atmo_control.dm"
+#include "code\blob.dm"
+#include "code\camera.dm"
+#include "code\cell_process.dm"
+#include "code\cellautomata.dm"
+#include "code\chemical.dm"
+#include "code\computer.dm"
+#include "code\cryo.dm"
+#include "code\datumvars.dm"
+#include "code\demo.dm"
+#include "code\demo2.dm"
+#include "code\dna.dm"
+#include "code\engine.dm"
+#include "code\globals.dm"
+#include "code\h_sandbox.dm"
+#include "code\hexadecimal.dm"
+#include "code\hologram.dm"
+#include "code\instructions.dm"
+#include "code\inverthtml.dm"
+#include "code\items.dm"
+#include "code\mob.dm"
+#include "code\modules.dm"
+#include "code\newitems.dm"
+#include "code\newobjects.dm"
+#include "code\newpipe.dm"
+#include "code\overview.dm"
+#include "code\power.dm"
+#include "code\shuttle.dm"
+#include "code\ss13_algorithm2.dm"
+#include "code\suicide.dm"
+#include "code\sun.dm"
+#include "code\test.dm"
+#include "code\texthandling.dm"
+#include "code\vehicle.dm"
+#include "code\vote.dm"
+#include "code\weap_sat.dm"
+#include "code\weapons.dm"
+#include "code\item\weapon\aimodules.dm"
+#include "code\item\weapon\game_kit.dm"
+#include "code\item\weapon\multitool.dm"
+#include "code\machinery\airlock.dm"
+#include "code\machinery\recharger.dm"
+#include "code\machinery\turrets.dm"
+// END_INCLUDE
+
